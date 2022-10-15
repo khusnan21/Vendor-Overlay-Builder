@@ -33,8 +33,8 @@ jobs:
       run: |
         PATH=~/bin:$PATH
         cd workspace && cd vendor_hardware_overlay
-        git config --global user.name "Carlo Dee"
-        git config --global user.email "carlodee.official@gmail.com"
+        git config --global user.name "Carlo Dandan"
+        git config --global user.email "jasminecarlo01@gmail.com"
         cd tests
         bash tests.sh
 
@@ -45,7 +45,7 @@ jobs:
         bash build.sh
 
     - name: Upload APK
-      uses: actions/upload-artifact@v3.0.0
+      uses: actions/upload-artifact@v3.1.0
       with:
         path: workspace/vendor_hardware_overlay/build/*.apk
         name: Overlays
