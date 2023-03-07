@@ -6,7 +6,7 @@ on:
       FORK_URL:
         description: 'FORKED_URL'
         required: true
-        default: 'https://github.com/cd-Crypton/vendor_hardware_overlay -b cannong'
+        default: 'https://github.com/cd-Crypton/vendor_hardware_overlay -b pie'
 
 jobs:
   build:
